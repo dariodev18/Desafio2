@@ -935,11 +935,11 @@ h6 {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   overflow: hidden;
 }
 
-#team .member .member-info {
+/* #team .member .member-info {
   opacity: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -959,14 +959,14 @@ h6 {
   left: 0;
   right: 0;
   transition: 0.2s;
-}
+} */
 
 #team .member .member-info-content {
-  margin-top: 50px;
-  transition: margin 0.2s;
+  margin-top: 20px;
+  /* transition: margin 0.2s; */
 }
 
-#team .member:hover .member-info {
+/* #team .member:hover .member-info {
   background: rgba(0, 62, 128, 0.7);
   opacity: 1;
   transition: 0.4s;
@@ -975,29 +975,30 @@ h6 {
 #team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
-}
+} */
 
-#team .member h4 {
+
+#team .card h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #1e1e1e;
 }
 
-#team .member span {
+#team .card span {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  color: #1e1e1e;
 }
 
-#team .member .social {
+/* #team .member .social {
   margin-top: 15px;
 }
 
 #team .member .social a {
   transition: none;
-  color: #fff;
+  color: #1e1e1e;
 }
 
 #team .member .social a:hover {
@@ -1007,7 +1008,7 @@ h6 {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
+} */
 
 /* Clients Section
 --------------------------------*/
@@ -1116,7 +1117,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #34c0df;
   float: left;
   line-height: 1;
 }
@@ -1169,7 +1170,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #34c0df;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
