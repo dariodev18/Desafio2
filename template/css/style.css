@@ -1184,18 +1184,93 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+
+
+#portfolio {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#portfolio .section-header {
+  padding-bottom: 30px;
+}
+
+#portfolio .card {
+  border-style: none;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio .card {
+  background: #34c0df;
+  border-color: #c5da2d;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #e9e7e8;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#portfolio .card:hover {
+  background: #c5da2d;
+  border-color: #e71964;
+}
+
+#portfolio .card-title {
+  color: #6e2f93;
+}
+
+
+
+
+
+/* #blog .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #007bff;
+} */
+
+/* #blog .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+} */
+
+/* #blog .social-links {
+  padding-bottom: 20px;
+} */
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #34c0df;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #e9e7e8;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #34c0df;
   padding: 60px 0 30px 0;
 }
 
@@ -1239,8 +1314,8 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: #fff;
+  background: #50535c;
+  color: #c5c5c5;
 }
 
 #footer .footer-top h4 {
@@ -1271,11 +1346,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #e9e7e8;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #e71964;
 }
 
 #footer .footer-top .footer-contact {
